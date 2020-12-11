@@ -15,5 +15,4 @@ Script is used with arguments
 ## Sample Output
 
 > oldest backup is :  /home/ec2-user/mysql/backup/wordpress-2020-12-11-15.18.33.sql
-
 Removed the oldest backup... wordpress-2020-12-11-15.18.33.sql

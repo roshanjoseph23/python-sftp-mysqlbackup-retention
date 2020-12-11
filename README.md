@@ -1,5 +1,12 @@
 It's a simple python script to delete the oldest MySQL backup in the EC2
 
+## Prerequisites
+
+ - EC2 ip
+ - key pair for EC2 access
+ - EC2 sftp user
+ - EC2 sftp port
+
 ## BACKUP
 
 MySQL backup is taken in the following format under directory `~/mysql/backup/`

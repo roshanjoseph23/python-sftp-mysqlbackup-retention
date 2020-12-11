@@ -18,8 +18,8 @@ else:
     print(usage)
 
 sftp_keyfile = 'project.pem'
-if ipaddress.ip_address(sftp_host) and str(sftp_port).isdigit():
-    sftp = pysftp.Connection(host=sftp_host,port=sftp_port,username=sftp_user,private_key=sftp_keyfile)
+if ipaddress.ip_address(sftp_host) and sftp_port.isdigit():
+    sftp = pysftp.Connection(host=sftp_host,port=int(sftp_port),username=sftp_user,private_key=sftp_keyfile)
     sftp.chdir('mysql/backup')
     wplist = sftp.listdir()
     if wplist:

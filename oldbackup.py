@@ -32,5 +32,5 @@ try:
         print('Removed the oldest backup...', oldest)
     else:
         print(usage)
-except Exception:
+except:
     print(usage)

@@ -3,7 +3,7 @@ import posixpath
 import sys
 import ipaddress
 
-usage = 'oldbackup.py <ip> <user> <port>(default=22)'
+usage = 'oldbackup.py <ip> <user> <port>/(default=22)'
 
 if len(sys.argv) == 4:
     sftp_host = sys.argv[1]

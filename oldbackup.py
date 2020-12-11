@@ -30,7 +30,5 @@ try:
             
         sftp.remove(oldest)
         print('Removed the oldest backup...', oldest)
-    else:
-        print(usage)
 except:
     print(usage)
